@@ -37,7 +37,9 @@ class EmploymentsController < ApplicationController
       :person_id,
       :organization_id,
       :job_title_id,
-      :location_id
+      :location_id,
+      :full_name,
+      :name
     )
   end
 
